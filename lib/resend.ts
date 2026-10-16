@@ -14,6 +14,7 @@ interface CandidateApplicationEmailData {
   fullName: string;
   email: string;
   phone: string;
+  gender: string;
   location: string;
   status: string;
   availability: string;
@@ -63,6 +64,10 @@ export async function sendHrNotificationEmail(
             <tr>
               <td style="padding: 6px 0; color: #6b7280; font-weight: 600;">Phone / WhatsApp:</td>
               <td style="padding: 6px 0; color: #111827;">${data.phone}</td>
+            </tr>
+            <tr>
+              <td style="padding: 6px 0; color: #6b7280; font-weight: 600;">Gender:</td>
+              <td style="padding: 6px 0; color: #111827; font-weight: 600;">${data.gender}</td>
             </tr>
             <tr>
               <td style="padding: 6px 0; color: #6b7280; font-weight: 600;">Location:</td>

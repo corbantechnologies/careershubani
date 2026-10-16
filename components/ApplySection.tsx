@@ -22,6 +22,7 @@ export default function ApplySection({ job }: ApplySectionProps) {
     fullName: "",
     email: "",
     phone: "",
+    gender: "",
     location: "",
     status: "Student / Recent Graduate",
     availability: "Immediate / 2 Weeks",
@@ -55,6 +56,11 @@ export default function ApplySection({ job }: ApplySectionProps) {
     setErrorMessage(null);
     setSuccessMessage(null);
 
+    if (!formData.gender || !["Male", "Female"].includes(formData.gender)) {
+      setErrorMessage("Please select your gender (strictly Male or Female).");
+      return;
+    }
+
     if (!selectedFile) {
       setErrorMessage("Please attach your CV / Resume before submitting.");
       return;
@@ -69,6 +75,7 @@ export default function ApplySection({ job }: ApplySectionProps) {
       body.append("fullName", formData.fullName);
       body.append("email", formData.email);
       body.append("phone", formData.phone);
+      body.append("gender", formData.gender);
       body.append("location", formData.location);
       body.append("status", formData.status);
       body.append("availability", formData.availability);
@@ -93,6 +100,7 @@ export default function ApplySection({ job }: ApplySectionProps) {
         fullName: "",
         email: "",
         phone: "",
+        gender: "",
         location: "",
         status: "Student / Recent Graduate",
         availability: "Immediate / 2 Weeks",
@@ -277,6 +285,27 @@ Best regards,
                 placeholder="+254 7XX XXX XXX"
                 className="w-full rounded border border-neutral-300 bg-white px-3 py-2 text-xs text-neutral-900 placeholder:text-neutral-400 focus:border-black focus:outline-none transition-colors"
               />
+            </div>
+
+            <div className="space-y-1">
+              <label
+                htmlFor="gender"
+                className="block text-xs font-semibold text-neutral-900"
+              >
+                Gender <span className="text-red-600">*</span>
+              </label>
+              <select
+                id="gender"
+                name="gender"
+                required
+                value={formData.gender}
+                onChange={handleInputChange}
+                className="w-full rounded border border-neutral-300 bg-white px-3 py-2 text-xs text-neutral-900 focus:border-black focus:outline-none transition-colors"
+              >
+                <option value="">Select Gender (Male / Female)</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
             </div>
 
             <div className="space-y-1">

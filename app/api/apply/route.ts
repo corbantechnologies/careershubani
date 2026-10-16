@@ -16,6 +16,7 @@ export async function POST(req: NextRequest) {
     const fullName = formData.get("fullName") as string;
     const email = formData.get("email") as string;
     const phone = formData.get("phone") as string;
+    const gender = formData.get("gender") as string;
     const location = formData.get("location") as string;
     const status = formData.get("status") as string;
     const availability = formData.get("availability") as string;
@@ -30,6 +31,7 @@ export async function POST(req: NextRequest) {
       !fullName ||
       !email ||
       !phone ||
+      !gender ||
       !location ||
       !status ||
       !availability ||
@@ -38,6 +40,14 @@ export async function POST(req: NextRequest) {
     ) {
       return NextResponse.json(
         { error: "Please fill in all required fields and attach your CV." },
+        { status: 400 }
+      );
+    }
+
+    // Validate gender strictly Male or Female
+    if (gender !== "Male" && gender !== "Female") {
+      return NextResponse.json(
+        { error: "Please select your gender (strictly Male or Female)." },
         { status: 400 }
       );
     }
@@ -82,6 +92,7 @@ export async function POST(req: NextRequest) {
       fullName,
       email,
       phone,
+      gender,
       location,
       status,
       availability,
