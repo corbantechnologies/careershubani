@@ -1,0 +1,90 @@
+[
+  {
+    "id": "hubani-job-001",
+    "slug": "principal-executive-secretary",
+    "title": "Principal Executive Secretary",
+    "subtitle": "Company Secretary & Chief of Staff",
+    "department": "Executive Office & Corporate Governance Secretariat",
+    "reportingLine": "Managing Director & CEO (Chief of Staff) / Board of Directors (Company Secretary)",
+    "targetProfile": "Ambitious Students, Recent Graduates & High-Potential Early Career Candidates (In-house Mentorship Provided)",
+    "engagementFramework": "Retained Executive Officer & Key Statutory Corporate Officer",
+    "location": {
+      "type": "Hybrid",
+      "city": "Mombasa",
+      "country": "Kenya",
+      "workplaceAddress": "Remote Workspace / Headquarters in Mombasa, Kenya"
+    },
+    "employmentType": "Retained",
+    "schemaEmploymentType": "OTHER",
+    "datePosted": "2026-10-17",
+    "deadlineText": "Rolling review — early submissions are strongly encouraged",
+    "salaryText": "Structured, competitive monthly retainer/stipend paired with performance incentives + direct executive mentorship & practical legal/secretarial training",
+    "aboutCompany": "Hubani Limited is an agile, cross-disciplinary parent holding corporation operating across high-velocity sectors, including premium cinematic music publishing, advanced data telemetry software systems, and international tournament administration. Hubani Limited serves as the sovereign governing entity behind BOTYA (Best of the Year Awards), a global competition league spanning four vertical disciplines: Chess, Software Development, Orchestral Music, and Film. We are a young, fast-moving company led by young directors who value innovation, speed, autonomy, and continuous growth. Rather than relying on legacy corporate hierarchies, we build lean, technology-driven teams.",
+    "roleSummary": "The Principal Executive Secretary is a unique hybrid appointment designed to combine statutory corporate governance with executive operational leverage. This position bridges the administrative responsibilities of a Company Secretary with the strategic execution, confidential stewardship, and organizational flow of a Chief of Staff.",
+    "extendedSummary": "As Company Secretary, you will oversee statutory compliance under the Kenyan Companies Act, 2015, organize board meetings, maintain statutory registers, and file official returns with the Business Registration Service (BRS). As Chief of Staff, you will work side-by-side with the Managing Director & CEO, managing executive workflows, tracking project cadence across divisions, overseeing travel logistics, and enforcing financial procurement limits. Comprehensive hands-on training, legal blueprints, and standardized operational templates will be provided to tailor you specifically to this role.",
+    "responsibilityGroups": [
+      {
+        "category": "Statutory Governance & Corporate Secretariat",
+        "items": [
+          "Statutory Compliance & Filings: Prepare and submit statutory annual returns, director updates, share allotments, and corporate filings with the Business Registration Service (BRS) via eCitizen under the Companies Act, 2015.",
+          "Statutory Registers Maintenance: Maintain clear, up-to-date digital registers, including the Register of Directors, Register of Members, Register of Charges, and the Register of Beneficial Owners (BO).",
+          "Board Coordination & Logistics: Schedule board and general meetings, prepare structured agendas, and dispatch formal notices within statutory timelines.",
+          "Minutes & Resolution Archiving: Record accurate meeting minutes, assist in drafting board resolutions, and manage secure digital archives.",
+          "Proxy & Quorum Verification: Verify voting instructions and proxy appointments against the cap table, calculating quorum requirements prior to meetings."
+        ]
+      },
+      {
+        "category": "Operational Leadership & Strategic Chief of Staff Support",
+        "items": [
+          "Executive Cadence & Tracking: Drive project tracking and cross-functional alignment across software, music publishing, and tournament units.",
+          "Procurement & Financial Controls: Enforce company expense policies, verifying that transaction spending limits ($1,000 unilateral cap / $2,500 multi-signature clearance) are strictly maintained.",
+          "Executive Mobility & Logistics: Coordinate executive itineraries, flight arrangements, and accommodations for official company travel.",
+          "Document Workflows & Witnessing: Act as an official corporate signatory witness for contracts, licensing deals, and commercial agreements.",
+          "Confidential Portfolio Management: Maintain secure, confidential records of executive portfolios, KYC documentation, and strategic corporate files."
+        ]
+      },
+      {
+        "category": "Risk Mitigation & Trade Secret Isolation",
+        "items": [
+          "Trade Secret Safeguarding: Uphold strict data security perimeters, protecting corporate repositories, financial liquidity records, and proprietary software/scoring IP.",
+          "Compliance Calendar Enforcement: Maintain a live master compliance calendar tracking business licenses, tax status certificates, and statutory filing deadlines."
+        ]
+      }
+    ],
+    "candidateProfileIntro": "At Hubani Limited, we believe capability, drive, and adaptability matter far more than years of traditional corporate tenure. As a young company with young directors, we do not require decades of prior executive experience or rigid educational prerequisites. We welcome students, recent graduates, and ambitious early-career candidates who want to learn, grow, and be tailored into an elite executive leader.",
+    "candidateProfilePoints": [
+      {
+        "headline": "Open to Students & Early Career Talent",
+        "detail": "We actively encourage applications from university students, recent graduates, and ambitious early-career individuals. No extensive prior corporate track record is required."
+      },
+      {
+        "headline": "High Trainability & Growth Mindset",
+        "detail": "Eagerness to learn and absorb Hubani Limited's specific operational frameworks, legal templates, and executive workflow cadence under direct mentorship from company leadership."
+      },
+      {
+        "headline": "Exceptional Organization & Detail Orientation",
+        "detail": "Rigorous attention to detail, highly methodical working style, and ability to manage multiple document workflows with speed and accuracy."
+      },
+      {
+        "headline": "Absolute Integrity & Discretion",
+        "detail": "Uncompromising ethical standards and mature judgment when handling highly confidential board materials, executive decisions, and corporate trade secrets."
+      },
+      {
+        "headline": "Strong Communication & Tech Literacy",
+        "detail": "Clear written and verbal communication skills, with comfort using digital productivity tools, cloud software, and structured documentation systems."
+      },
+      {
+        "headline": "Adaptability & Agility",
+        "detail": "Thriving in a fast-moving, youthful corporate culture that encourages initiative, creative problem-solving, and continuous self-improvement."
+      },
+      {
+        "headline": "Educational Background (Flexible)",
+        "detail": "Pursuing or holding a diploma/degree in Law, Business Administration, Communication, Corporate Governance, or any analytical field is welcomed but not strictly required. Willingness to undertake sponsored secretarial/governance training as the role grows is a strong asset."
+      }
+    ],
+    "compensationAndTraining": "Hubani Limited offers a structured, competitive monthly retainer/stipend paired with performance incentive opportunities tied to company growth. In addition to financial compensation, selected candidates will receive direct executive mentorship, practical legal/secretarial training, and significant corporate exposure. Hubani Limited is an equal opportunity employer that values potential, enthusiasm, and dedication above formal titles.",
+    "applicationEmail": "careers@hubani.org",
+    "applicationInstructions": "Interested candidates (including university students and recent graduates) are invited to submit their CV and a brief cover letter explaining why they are excited to learn and grow with Hubani Limited to careers@hubani.org.",
+    "status": "active"
+  }
+]
