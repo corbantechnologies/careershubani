@@ -6,14 +6,19 @@ export default function Footer() {
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
           <div className="max-w-md space-y-2">
-            <div className="flex items-center gap-2">
-              <span className="flex h-5 w-5 items-center justify-center rounded bg-black text-white text-[10px] font-semibold">
+            <Link href="/" className="flex items-center gap-2 group">
+              <span className="flex h-7 w-7 items-center justify-center rounded bg-black text-white text-xs font-semibold tracking-wider">
                 H
               </span>
-              <span className="text-sm font-semibold tracking-tight text-black">
-                Hubani Limited
-              </span>
-            </div>
+              <div className="flex flex-col">
+                <span className="text-base font-semibold tracking-tight text-black leading-none">
+                  HUBANI
+                </span>
+                <span className="text-xs font-normal text-neutral-500 tracking-wide uppercase">
+                  Careers
+                </span>
+              </div>
+            </Link>
             <p className="text-xs text-neutral-600 leading-relaxed">
               Agile parent holding corporation operating across cinematic music
               publishing, advanced data telemetry systems, and global tournament
