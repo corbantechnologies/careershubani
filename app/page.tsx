@@ -28,15 +28,15 @@ export default function Home() {
           autonomy, speed, and continuous growth.
         </p>
 
-        <div className="flex flex-wrap items-center gap-3 pt-2 text-xs text-neutral-500">
+        <div className="flex flex-col sm:flex-row sm:items-center gap-1.5 sm:gap-3 pt-2 text-xs text-neutral-600">
           <span className="flex items-center gap-1.5">
-            <span className="font-semibold text-neutral-900">Base:</span> Mombasa, Kenya &amp; Remote
+            <span className="font-semibold text-neutral-900">Base:</span> Mombasa, Kenya &amp; Remote Workspaces
           </span>
-          <span>•</span>
+          <span className="hidden sm:inline text-neutral-300">•</span>
           <span className="flex items-center gap-1.5">
             <span className="font-semibold text-neutral-900">Culture:</span> Direct Mentorship &amp; High Autonomy
           </span>
-          <span>•</span>
+          <span className="hidden sm:inline text-neutral-300">•</span>
           <span className="flex items-center gap-1.5">
             <span className="font-semibold text-neutral-900">Philosophy:</span> Potential Above Traditional Tenure
           </span>

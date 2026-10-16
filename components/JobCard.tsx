@@ -38,10 +38,14 @@ export default function JobCard({ job }: JobCardProps) {
           {job.roleSummary}
         </p>
 
-        <div className="pt-1 text-xs text-neutral-500 flex flex-wrap items-center gap-y-1 gap-x-3">
-          <span>Target: {job.targetProfile.split("(")[0].trim()}</span>
-          <span>•</span>
-          <span>Deadline: {job.deadlineText}</span>
+        <div className="pt-1 text-xs text-neutral-500 flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3">
+          <span>
+            <strong className="font-medium text-neutral-700">Target:</strong> {job.targetProfile.split("(")[0].trim()}
+          </span>
+          <span className="hidden sm:inline text-neutral-300">•</span>
+          <span>
+            <strong className="font-medium text-neutral-700">Deadline:</strong> {job.deadlineText}
+          </span>
         </div>
       </div>
 
