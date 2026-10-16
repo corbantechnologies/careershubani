@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/next"
 
 const googleSans = localFont({
   src: [
@@ -37,6 +38,7 @@ export const metadata: Metadata = {
     "Mombasa Jobs",
     "Remote Jobs Kenya",
     "BOTYA",
+    "Nairobi Jobs",
   ],
   authors: [{ name: "Hubani Limited", url: "https://hubani.org" }],
   creator: "Hubani Limited",
@@ -77,6 +79,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

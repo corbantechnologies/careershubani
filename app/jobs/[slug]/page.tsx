@@ -77,7 +77,7 @@ export default async function JobDetailPage({ params }: PageProps) {
         </nav>
 
         {/* Role Header Banner */}
-        <header className="border border-neutral-200 rounded bg-white p-6 sm:p-8 shadow-xs space-y-4">
+        <header className="border border-neutral-200 rounded bg-white p-5 sm:p-8 shadow-xs space-y-4">
           <div className="flex flex-wrap items-center gap-2">
             <span className="rounded bg-neutral-100 px-2.5 py-0.5 text-xs font-medium text-neutral-800 border border-neutral-200">
               {job.department}
@@ -102,21 +102,21 @@ export default async function JobDetailPage({ params }: PageProps) {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-3 border-t border-neutral-100 text-xs text-neutral-600">
-            <div>
+            <div className="space-y-0.5">
               <span className="font-semibold text-neutral-900 block">Reporting Line:</span>
-              <span>{job.reportingLine}</span>
+              <span className="break-words">{job.reportingLine}</span>
             </div>
-            <div>
+            <div className="space-y-0.5">
               <span className="font-semibold text-neutral-900 block">Engagement Framework:</span>
-              <span>{job.engagementFramework}</span>
+              <span className="break-words">{job.engagementFramework}</span>
             </div>
-            <div>
+            <div className="space-y-0.5">
               <span className="font-semibold text-neutral-900 block">Target Candidate Profile:</span>
-              <span className="text-neutral-800">{job.targetProfile}</span>
+              <span className="text-neutral-800 break-words">{job.targetProfile}</span>
             </div>
-            <div>
+            <div className="space-y-0.5">
               <span className="font-semibold text-neutral-900 block">Application Deadline:</span>
-              <span className="text-neutral-800">{job.deadlineText}</span>
+              <span className="text-neutral-800 break-words">{job.deadlineText}</span>
             </div>
           </div>
 
