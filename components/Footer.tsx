@@ -52,8 +52,16 @@ export default function Footer() {
             <p className="text-xs text-neutral-500 pt-2">
               Equal Opportunity Employer. Potential and dedication above formal titles.
             </p>
-            <p className="text-xs text-neutral-400">
-              © 2026 Hubani Limited. All rights reserved.
+            <p className="text-xs text-neutral-400 sm:text-right">
+              © 2026 Hubani Limited. All rights reserved. Powered by{" "}
+              <a
+                href="https://www.corbantechnologies.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-black font-medium transition-colors hover:text-black"
+              >
+                Corban Technologies LTD
+              </a>
             </p>
           </div>
         </div>

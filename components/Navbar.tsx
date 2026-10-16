@@ -31,7 +31,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="text-sm font-medium text-neutral-500 hover:text-black transition-colors flex items-center gap-1"
           >
-            hubani.org
+            Visit Hubani
             <span className="text-xs" aria-hidden="true">↗</span>
           </a>
         </nav>
