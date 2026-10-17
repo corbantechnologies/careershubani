@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Link from "next/link";
 import { getAllJobs, getJobBySlug } from "@/lib/jobs";
 import ApplySection from "@/components/ApplySection";
@@ -51,7 +52,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default async function JobDetailPage({ params }: PageProps) {
+export default function JobDetailPage({ params }: PageProps) {
+  return (
+    <Suspense
+      fallback={
+        <div className="w-full px-4 py-8 sm:px-6 sm:py-12 lg:px-10 text-xs text-neutral-500">
+          Loading role...
+        </div>
+      }
+    >
+      <JobDetailContent params={params} />
+    </Suspense>
+  );
+}
+
+async function JobDetailContent({ params }: PageProps) {
   const { slug } = await params;
   const job = getJobBySlug(slug);
 
@@ -64,7 +79,7 @@ export default async function JobDetailPage({ params }: PageProps) {
       {/* Schema.org JobPosting JSON-LD for Google Jobs indexing */}
       <JobSchema job={job} />
 
-      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-12 space-y-10">
+      <div className="w-full px-4 py-8 sm:px-6 sm:py-12 lg:px-10 space-y-10">
         {/* Breadcrumb Navigation */}
         <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-xs text-neutral-500">
           <Link href="/" className="hover:text-black transition-colors">
