@@ -11,8 +11,8 @@ export default function Home() {
       {/* Hero Section */}
       <section className="space-y-4 border-b border-neutral-200 pb-10">
         <div className="inline-flex items-center gap-2 rounded border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-800">
-          <span className="h-1.5 w-1.5 rounded-full bg-emerald-600 animate-pulse" />
-          <span>Now Hiring: Early-Career &amp; Executive Positions</span>
+          <span className="h-1.5 w-1.5 rounded-full bg-neutral-400" />
+          <span>Not Currently Hiring</span>
         </div>
 
         <h1 className="text-xl font-semibold tracking-tight text-neutral-950 sm:text-xl">
@@ -76,7 +76,7 @@ export default function Home() {
           </div>
         ) : (
           <div className="rounded border border-neutral-200 p-8 text-center text-sm text-neutral-600">
-            No active positions at this time. Check back soon or email{" "}
+            We are not currently hiring. All open positions have been filled. Check back soon or email{" "}
             <a href="mailto:careers@hubani.org" className="underline font-medium text-black">
               careers@hubani.org
             </a>

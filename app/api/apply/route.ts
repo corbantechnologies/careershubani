@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { uploadResumeToMinio } from "@/lib/minio";
+import { getJobBySlug } from "@/lib/jobs";
 import {
   sendHrNotificationEmail,
   sendApplicantConfirmationEmail,
@@ -41,6 +42,14 @@ export async function POST(req: NextRequest) {
       return NextResponse.json(
         { error: "Please fill in all required fields and attach your CV." },
         { status: 400 }
+      );
+    }
+
+    // Reject applications for closed or unknown positions
+    if (!getJobBySlug(jobSlug)) {
+      return NextResponse.json(
+        { error: "This position is no longer accepting applications." },
+        { status: 410 }
       );
     }
 
