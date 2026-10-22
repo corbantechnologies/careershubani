@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import Link from "next/link";
-import { getAllJobs, getJobBySlug } from "@/lib/jobs";
+import { getJobBySlug } from "@/lib/jobs";
 import ApplySection from "@/components/ApplySection";
 import JobSchema from "@/components/JobSchema";
 
@@ -10,12 +10,6 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
-export async function generateStaticParams() {
-  const jobs = getAllJobs();
-  return jobs.map((job) => ({
-    slug: job.slug,
-  }));
-}
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
