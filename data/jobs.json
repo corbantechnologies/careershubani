@@ -86,5 +86,83 @@
     "applicationEmail": "careers@hubani.org",
     "applicationInstructions": "Interested candidates (including university students and recent graduates) are invited to submit their CV and a brief cover letter explaining why they are excited to learn and grow with Hubani Limited to careers@hubani.org.",
     "status": "closed"
+  },
+  {
+    "id": "hubani-job-002",
+    "slug": "brand-identity-designer",
+    "title": "Brand Identity Designer",
+    "subtitle": "One-Time Contract: Hubani Brand System",
+    "department": "Brand & Design",
+    "reportingLine": "Managing Director & CEO",
+    "targetProfile": "Freelance Brand and Graphic Designers, Students and Early Career Creatives with a Strong Portfolio",
+    "engagementFramework": "One-Time Fixed-Fee Contract (USD 100)",
+    "location": {
+      "type": "Remote",
+      "country": "Kenya",
+      "workplaceAddress": "Remote (Hubani Limited is headquartered in Mombasa, Kenya)"
+    },
+    "employmentType": "Contract",
+    "schemaEmploymentType": "CONTRACTOR",
+    "datePosted": "2026-11-03",
+    "deadlineText": "Open until filled. Early submissions are strongly encouraged",
+    "salaryText": "USD 100, one-time fixed fee for the complete brand system deliverables",
+    "aboutCompany": "Hubani Limited is an agile, cross-disciplinary parent holding corporation operating across high-velocity sectors, including premium cinematic music publishing, advanced data telemetry software systems, and international tournament administration. Hubani Limited serves as the sovereign governing entity behind BOTYA (Best of the Year Awards), a global competition league spanning four vertical disciplines: Chess, Software Development, Orchestral Music, and Film. We are a young, fast-moving company led by young directors who value innovation, speed, autonomy, and continuous growth.",
+    "roleSummary": "Hubani Limited is looking for a designer to set up its brand from the ground up as a single, one-time project. You will define how Hubani looks and feels everywhere it appears, from the logo and colours to the signature at the bottom of an email, and hand over a complete, ready-to-use brand system.",
+    "extendedSummary": "This is a fixed-scope contract with a one-time fee of USD 100. It is not an ongoing role. Once the final files are delivered and approved, the engagement ends.",
+    "responsibilityGroups": [
+      {
+        "category": "Core Brand Identity",
+        "items": [
+          "Logo Design: Design the Hubani Limited logo with a primary mark, a compact icon version, and light and dark variants.",
+          "Brand Colours: Define a primary and secondary colour palette with HEX, RGB and CMYK values and usage guidance.",
+          "Typography: Recommend a font system for headings, body text and documents, with web and office-safe fallbacks.",
+          "Theme & Visual Direction: Define the overall look and feel, including spacing, iconography and graphic style, so that all future material stays consistent."
+        ]
+      },
+      {
+        "category": "Communication & Document Assets",
+        "items": [
+          "Email Signatures: Design a professional email signature template that works in Gmail and Outlook.",
+          "Email Headers: Design a branded email header for outbound communication.",
+          "Document Headers & Footers: Design letterhead and header and footer layouts for official company documents, delivered as editable templates.",
+          "Brand Guidelines: Compile a concise brand guide showing correct and incorrect logo usage, colours, fonts and templates."
+        ]
+      },
+      {
+        "category": "Handover & Deliverables",
+        "items": [
+          "Source & Export Files: Deliver all final logo files in SVG and PNG, and source files in an editable format.",
+          "Editable Templates: Provide document and email templates that the Hubani team can reuse without a designer.",
+          "Revisions: Incorporate feedback from the leadership team and finalise the work after approval."
+        ]
+      }
+    ],
+    "candidateProfileIntro": "We care about the quality of your work more than your title or years of experience. Students, recent graduates and self-taught designers are welcome to apply.",
+    "candidateProfilePoints": [
+      {
+        "headline": "Strong Portfolio",
+        "detail": "Show real brand identity or logo work. A portfolio link is the most important part of your application."
+      },
+      {
+        "headline": "Brand Systems Thinking",
+        "detail": "You think beyond a single logo and can design a consistent system across digital and printed material."
+      },
+      {
+        "headline": "Practical Tool Skills",
+        "detail": "Comfortable with vector and layout tools such as Figma, Illustrator, Affinity or similar, and with producing Word, Google Docs and email-ready templates."
+      },
+      {
+        "headline": "Reliable & Communicative",
+        "detail": "You communicate clearly, accept feedback well and deliver on the agreed timeline."
+      },
+      {
+        "headline": "Original Work",
+        "detail": "All deliverables must be original work, free of third-party licensing restrictions, with full ownership transferred to Hubani Limited on delivery."
+      }
+    ],
+    "compensationAndTraining": "This is a one-time contract with a fixed fee of USD 100 for the full set of agreed deliverables. Hubani Limited is an equal opportunity employer that values potential, enthusiasm, and dedication above formal titles.",
+    "applicationEmail": "careers@hubani.org",
+    "applicationInstructions": "Submit your CV or portfolio link and a brief note on your approach to branding to careers@hubani.org.",
+    "status": "active"
   }
 ]
