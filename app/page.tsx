@@ -11,8 +11,17 @@ export default function Home() {
       {/* Hero Section */}
       <section className="space-y-4 border-b border-neutral-200 pb-10">
         <div className="inline-flex items-center gap-2 rounded border border-neutral-200 bg-neutral-50 px-2.5 py-1 text-xs font-medium text-neutral-800">
-          <span className="h-1.5 w-1.5 rounded-full bg-neutral-400" />
-          <span>Not Currently Hiring</span>
+          {jobs.length > 0 ? (
+            <>
+              <span className="h-1.5 w-1.5 rounded-full bg-emerald-600 animate-pulse" />
+              <span>Now Hiring</span>
+            </>
+          ) : (
+            <>
+              <span className="h-1.5 w-1.5 rounded-full bg-neutral-400" />
+              <span>Not Currently Hiring</span>
+            </>
+          )}
         </div>
 
         <h1 className="text-xl font-semibold tracking-tight text-neutral-950 sm:text-xl">

@@ -164,5 +164,222 @@
     "applicationEmail": "careers@hubani.org",
     "applicationInstructions": "Submit your CV or portfolio link and a brief note on your approach to branding to careers@hubani.org.",
     "status": "closed"
+  },
+  {
+    "id": "hubani-job-003",
+    "slug": "composer-assistant-orchestrator",
+    "title": "Composer Assistant & Orchestrator",
+    "subtitle": "Project-Based Contract: Film & Trailer Scoring",
+    "department": "Media & Orchestral Scoring Division",
+    "reportingLine": "Lead Composer & CEO",
+    "targetProfile": "Orchestrators, Composer Assistants and MIDI Programmers with Cinematic Scoring Experience",
+    "engagementFramework": "B2B Project-Based Independent Contractor",
+    "location": {
+      "type": "Remote",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "workplaceAddress": "Remote (Hubani Limited is headquartered in Nairobi, Kenya)"
+    },
+    "employmentType": "Contract",
+    "schemaEmploymentType": "CONTRACTOR",
+    "datePosted": "2026-11-20",
+    "deadlineText": "Open until filled. Early submissions are strongly encouraged",
+    "salaryText": "Fixed per-minute-of-music flat fee based on the final approved duration of completed cues, paid in two 50/50 milestones",
+    "aboutCompany": "Hubani Limited is a cross-disciplinary parent holding company operating across cinematic film scoring, real-time data telemetry systems, and global competitive entertainment. Our Media & Orchestral Scoring Division produces theatrical film scores, high-impact trailer music, and custom broadcast themes for international film studios, streaming networks, and our flagship global tournament league, BOTYA (Best of the Year Awards).",
+    "roleSummary": "We operate on a high-velocity, assembly-line scoring model that separates core thematic creation from technical arrangement and post-production. We are looking for a disciplined, detail-obsessed Composer Assistant & Orchestrator to work directly alongside our Lead Composer and CEO to translate raw piano sketches into massive, expressive symphonic mockups and conductor-ready scores.",
+    "extendedSummary": "You will step directly into active film and trailer production sprints. Your primary objective is to take approved 4-staff piano sketches and thematic motifs and expand them into full, theatrical 80-piece orchestral arrangements under strict cinematic deadlines.",
+    "responsibilityGroups": [
+      {
+        "category": "Arrangement & MIDI Programming",
+        "items": [
+          "Symphonic Arrangement Expansion: Flesh out the Lead Composer's approved piano sketches, harmonic progressions, and MESH melodic motifs into full orchestral arrangements across Strings, Brass, Woodwinds, Choir, and Trailer Percussion.",
+          "Hyper-Realistic MIDI Programming: Program lifelike human phrasing and dynamic swells using continuous MIDI CC 1 (Modulation) and MIDI CC 11 (Expression) automation curves, breath controller data, and precise articulation key-switching.",
+          "Frequency & Acoustic Air-Gapping: Arrange voicings cleanly, using open fifths and proper octave doubling, so dense brass and string layers cut through heavy percussion without mid-range frequency clutter."
+        ]
+      },
+      {
+        "category": "Score Preparation & Handoff",
+        "items": [
+          "Live Session Score Preparation: When projects include live soloists or orchestra tracking, transcribe finalized DAW MIDI data into clean, readable conductor scores and individual musician parts adhering to our house notation style guide.",
+          "Pre-Flight Stem Handoffs: Complete our internal pre-flight verification checklist before passing sessions to the Music Editor, ensuring zero digital clipping, clean track labeling, and strict frame-accurate timecode alignment."
+        ]
+      },
+      {
+        "category": "Technical Stack & Studio Environment",
+        "items": [
+          "Primary DAWs: Cubase Pro, Nuendo, or Logic Pro (matching our master track templates and Vienna Ensemble Pro routing).",
+          "Core Virtual Instrument Libraries: BBC Symphony Orchestra (BBCSO), Spitfire Audio / Cinematic Studio Series, Noir Piano, Choir Omnia, and heavy trailer percussion suites.",
+          "Notation Software: Dorico Pro or Steinberg/Avid Sibelius (for translating finalized MIDI mockups into live recording scores and player parts)."
+        ]
+      }
+    ],
+    "candidateProfileIntro": "We run a lean, high-accountability creative division. We value musical instinct, technical precision, and absolute discretion.",
+    "candidateProfilePoints": [
+      {
+        "headline": "Zero Ego, Maximum Precision",
+        "detail": "You are translating and elevating the Lead Composer's thematic vision, not rewriting the core melody. You must hit deadlines reliably and execute creative notes cleanly within a strict cap of two (2) consolidated revision passes per cue."
+      },
+      {
+        "headline": "Strict Vault Security & Anti-Leak Discipline",
+        "detail": "You will work with unreleased film cuts, timecoded screeners, and proprietary studio templates. Saving project files, audio stems, or video cuts onto personal hard drives or personal cloud accounts is strictly prohibited. All work happens exclusively inside our isolated studio masters network directory."
+      },
+      {
+        "headline": "Mockup Realism",
+        "detail": "You can program virtual orchestras that sound indistinguishable from a live scoring stage and you thrive under cinematic deadlines."
+      },
+      {
+        "headline": "Legal Onboarding",
+        "detail": "Before you receive access to our DAW templates, spotting notes, or unreleased film cuts, you will be required to sign our B2B Independent Contractor Agreement and Studio Non-Disclosure & Anti-Leak Covenant. All work is strictly Work-Made-For-Hire: Hubani Limited retains 100% of all copyrights, master rights, and publishing rights, while the Lead Composer retains 100% of the Performing Rights Organization (PRO) Writer Share on all cue sheets."
+      }
+    ],
+    "compensationAndTraining": "Compensation is structured on a transparent, fixed per-minute-of-music rate based on the final approved duration of completed cues, insulating you from unpaid revision loops. Payments are wired in two gates: 50% upon Lead Composer approval of the full orchestral mockup, and 50% upon verified stem handoff into the master studio vault. Assistants who consistently deliver theatrical-grade mockups ahead of schedule are prioritized for recurring lead orchestration credits on major film slates and direct placement into our broader creative leadership network. Hubani Limited is an equal opportunity employer. All applications are evaluated blindly based on musicality, technical execution, and mockup realism.",
+    "applicationEmail": "careers@hubani.org",
+    "applicationInstructions": "Submit your application package to careers@hubani.org including: (1) your audio reel (3 to 4 tracks max) with at least one epic hybrid/trailer cue and one emotional, thematic orchestral cue (bonus: a side-by-side comparison of a piano sketch vs. your finished orchestral mockup); (2) a screenshot of a complex DAW session showing your track organization, routing, and MIDI CC automation lanes; and (3) your primary DAW and notation software stack.",
+    "status": "active"
+  },
+  {
+    "id": "hubani-job-004",
+    "slug": "music-editor-daw-technical-engineer",
+    "title": "Music Editor & DAW Technical Engineer",
+    "subtitle": "Project-Based Contract: Film & Trailer Scoring",
+    "department": "Media & Orchestral Scoring Division",
+    "reportingLine": "Lead Composer, Media & Orchestral Scoring Division",
+    "targetProfile": "Film/TV Music Editors, Assistant Engineers and Technical Score Prep Specialists",
+    "engagementFramework": "B2B Project-Based Independent Contractor",
+    "location": {
+      "type": "Remote",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "workplaceAddress": "Remote (Hubani Limited is headquartered in Nairobi, Kenya)"
+    },
+    "employmentType": "Contract",
+    "schemaEmploymentType": "CONTRACTOR",
+    "datePosted": "2026-11-20",
+    "deadlineText": "Open until filled. Early submissions are strongly encouraged",
+    "salaryText": "Fixed per-reel or per-project technical retainer, paid in two 50/50 milestones",
+    "aboutCompany": "Hubani Limited is a cross-disciplinary parent holding company operating across cinematic film scoring, real-time data telemetry systems, and global competitive entertainment. Our Media & Orchestral Scoring Division produces theatrical film scores, high-impact trailer music, and custom broadcast themes for international film studios, streaming networks, and our flagship global tournament league, BOTYA (Best of the Year Awards).",
+    "roleSummary": "To keep our Lead Composer focused purely on thematic creation, we isolate all technical session prep, timecode locking, and post-production editorial work under a dedicated specialist. We are looking for an ultra-reliable Music Editor & DAW Technical Engineer to act as the technical backbone of our scoring pipeline, ensuring zero template friction, frame-accurate picture sync, and flawless stem deliveries.",
+    "extendedSummary": "You will manage the technical infrastructure and editorial precision of every film, trailer, and broadcast project from initial video ingestion to final cue sheet delivery. When a film director makes a late picture recut or shifts scene timings by fourteen frames, you will execute surgical audio and MIDI conforms so the score stays locked to picture without disrupting creative momentum.",
+    "responsibilityGroups": [
+      {
+        "category": "Session Prep & Picture Sync",
+        "items": [
+          "Video Ingestion & Timecode Calibration: Ingest incoming video cuts (ProRes / DNxHD / H.264), verify exact frame rates (23.976 fps, 24 fps, 25 fps), confirm visible BITC (Burned-In Timecode), and align the calibrated 2-pop sync beep precisely two seconds prior to the first frame of action (FFOA).",
+          "Master Tempo Mapping & Session Prep: Build the master DAW session files from our spotting notes, setting up marker tracks (IN and OUT points), mapping complex tempo and time-signature ramps to hit visual cuts, and pre-loading our VEP orchestral templates so the Lead Composer can write immediately.",
+          "Picture-Lock Recuts & Surgical Conforming: Manage incoming picture edits using EDLs and Change Notes. Execute frame-accurate audio and MIDI splices, crossfades, and tempo adjustments whenever scenes are trimmed, extended, or rearranged."
+        ]
+      },
+      {
+        "category": "Stem Delivery & Metadata",
+        "items": [
+          "Stem Printing & Bus Routing: Export, name, and timecode-stamp all stereo print stems (BUS_STRINGS, BUS_BRASS, BUS_WOODWINDS, BUS_PERC_LOW, BUS_PERC_HIGH, BUS_SYNTHS) at 24-bit / 48kHz with -14 LUFS / -1.0 dBTP headroom for handoff to our Dolby Atmos Mix Engineer.",
+          "Master Cue Sheet & PRO Metadata Logging: Compile and verify the final Master Film Cue Sheet, recording exact cue titles, durations, timings, and usage types paired with our Lead Composer's Writer IPI and Hubani Limited's Publisher IPI for submission to BMI/ASCAP and the film studio."
+        ]
+      },
+      {
+        "category": "Technical Stack & Studio Environment",
+        "items": [
+          "Primary DAWs: Logic Pro, Cubase Pro, Nuendo, or Pro Tools Ultimate (with deep mastery of tempo mapping, marker tracks, and timecode locks).",
+          "Server & Sample Routing: Vienna Ensemble Pro (VEP) slave configurations, MIDI over LAN routing, RAM/buffer optimization, and large-scale orchestral template management.",
+          "Editorial & Metadata Tools: EDL/Change Note tracking utilities, frame-rate conversion tools, and Performing Rights Organization (PRO) Cue Sheet formatting systems."
+        ]
+      }
+    ],
+    "candidateProfileIntro": "We run a lean, high-accountability technical division. We value obsession over frame-accurate details, calm execution under tight post-production deadlines, and strict operational security.",
+    "candidateProfilePoints": [
+      {
+        "headline": "Zero Technical Friction",
+        "detail": "Your job is to eliminate technical bottlenecks before they reach the composing desk. Templates must load cleanly, stems must null-test accurately against reference mixes, and every delivered file must follow our exact alphanumeric naming convention (PROJ_1M01_CueTitle_STEM_STRINGS_24b48k.wav)."
+      },
+      {
+        "headline": "Strict Vault Security & Anti-Leak Discipline",
+        "detail": "You will handle unreleased film edits, timecoded screeners, and master audio stems. Caching, backing up, or storing project files or video cuts on unapproved personal drives or personal cloud storage is strictly prohibited. All files must remain inside our isolated studio masters repository."
+      },
+      {
+        "headline": "Fluent in Timecode",
+        "detail": "You live in timecode, can conform a 20-minute film reel in your sleep, and know how to keep massive orchestral DAW templates running smoothly."
+      },
+      {
+        "headline": "Legal Onboarding",
+        "detail": "Before you receive access to raw video cuts, VEP server schematics, or DAW templates, you will be required to sign our B2B Independent Contractor Agreement and Studio Non-Disclosure & Anti-Leak Covenant. All work is strictly Work-Made-For-Hire: Hubani Limited retains 100% of all copyrights, master recording rights, custom templates, and publishing rights, with zero residual or royalty claims retained by the contractor."
+      }
+    ],
+    "compensationAndTraining": "Compensation is structured on a transparent, fixed per-reel or per-project technical retainer rate, protecting you from unpaid editorial hours. Payments are wired via corporate transfer in two gates: 50% upon session prep completion and template sign-off, and 50% upon verified stem delivery and final Master Cue Sheet ingestion into the studio vault. Music Editors who consistently execute frame-accurate conforms and maintain zero-defect stem pipelines receive priority placement across all upcoming Hubani film slates and senior technical oversight roles within the division. Hubani Limited is an equal opportunity employer. All applications are evaluated objectively based on technical accuracy, post-production workflow speed, and editorial reliability.",
+    "applicationEmail": "careers@hubani.org",
+    "applicationInstructions": "Submit your application package to careers@hubani.org (Subject Line: Music Editor & DAW Engineer Application - [Your Name]) including: (1) your technical and editorial resume highlighting film/TV music editing, picture recut conforming, and DAW/VEP template management; (2) a system and DAW setup summary listing your primary DAWs, operating system environment, and experience with timecode sync, frame-rate conversions, and stem delivery workflows; and (3) notable credits for any feature films, streaming series, trailers, or interactive media projects where you served as Music Editor, Assistant Engineer, or Technical Score Prep.",
+    "status": "active"
+  },
+  {
+    "id": "hubani-job-005",
+    "slug": "re-recording-mix-dolby-atmos-mastering-engineer",
+    "title": "Re-Recording Mix & Dolby Atmos Mastering Engineer",
+    "subtitle": "Project-Based Contract: Film & Trailer Scoring",
+    "department": "Media & Orchestral Scoring Division",
+    "reportingLine": "Lead Composer, Media & Orchestral Scoring Division",
+    "targetProfile": "Re-Recording Mixers and Mastering Engineers Running a Calibrated 7.1.4 Dolby Atmos Studio",
+    "engagementFramework": "B2B Project-Based Independent Contractor",
+    "location": {
+      "type": "Remote",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "workplaceAddress": "Remote, calibrated 7.1.4 studio required (Hubani Limited is headquartered in Nairobi, Kenya)"
+    },
+    "employmentType": "Contract",
+    "schemaEmploymentType": "CONTRACTOR",
+    "datePosted": "2026-11-20",
+    "deadlineText": "Open until filled. Early submissions are strongly encouraged",
+    "salaryText": "Fixed per-minute-of-music / per-reel flat fee based on final approved cue durations, paid in two 50/50 milestones",
+    "aboutCompany": "Hubani Limited is a cross-disciplinary parent holding company operating across cinematic film scoring, real-time data telemetry systems, and global competitive entertainment. Our Media & Orchestral Scoring Division produces theatrical film scores, high-impact trailer music, and custom broadcast themes for international film studios, streaming networks, and our flagship global tournament league, BOTYA (Best of the Year Awards).",
+    "roleSummary": "Once our Lead Composer, Orchestrator, and Music Editor lock the musical arrangement to picture, we hand off clean, timecode-stamped stems to our final sonic finisher. We are looking for an elite Re-Recording Mix & Dolby Atmos Mastering Engineer to glue virtual orchestral libraries with live soloists, sculpt immersive 3D spatial soundstages, and deliver theatrical and streaming-compliant masters.",
+    "extendedSummary": "You will operate at the final post-production gate of our film and trailer scoring pipeline. Your primary objective is to take printed orchestral stems (Strings, Brass, Woodwinds, Percussion, Synths, Live Soloists) and deliver pristine Dolby Atmos ADM BWF files, 5.1 surround folds, and stereo soundtrack masters that pass strict Netflix, Apple TV+, Amazon Prime, and theatrical quality control (QC) specs on the first pass.",
+    "responsibilityGroups": [
+      {
+        "category": "Mixing & Spatial Placement",
+        "items": [
+          "Hybrid Orchestral Mixing: Ingest printed stems (24-bit / 48kHz) and apply surgical EQ, dynamic compression, harmonic saturation, and convolution/algorithmic reverb placement so virtual sample libraries blend seamlessly with live acoustic soloists.",
+          "Dialogue-First Frequency Sculpting: Carve space cleanly in the 1kHz to 4kHz midrange frequencies during dialogue-heavy scenes so the score supports the film's emotional arc without masking actor speech.",
+          "3D Spatial Dolby Atmos Placement: Distribute stems across our standardized 7.1.4 Bed & Object Routing Map, anchoring foundational low-end weight (Double Basses, Gran Cassa, Low Brass) in the bed while placing dynamic percussion transients, synth textures, and risers into 3D overhead objects."
+        ]
+      },
+      {
+        "category": "Mastering & Quality Control",
+        "items": [
+          "Dolby Atmos (Streaming) Masters: Integrated loudness capped at -18 LKFS with a maximum True Peak of -1.0 dBTP.",
+          "Stereo / Soundtrack Masters: Integrated loudness normalized to -14 LUFS with a -1.0 dBTP ceiling.",
+          "QC & Fold-Down Verification: Run our mandatory pre-flight QC inspection on every cue, verifying phase correlation, checking binaural headphone metadata trims, testing 5.1 and 2.0 stereo downmixes for phase cancellation, and confirming frame-accurate sync against the 2-pop marker."
+        ]
+      },
+      {
+        "category": "Studio Calibration & Technical Stack",
+        "items": [
+          "Calibrated Monitoring Environment: A dedicated, acoustically treated mixing room calibrated to 7.1.4 Dolby Atmos (85 dBC SPL reference capability) with verifiable room correction and bass management.",
+          "Primary DAW & Renderer: Pro Tools Ultimate, Nuendo, or Logic Pro integrated with the Dolby Atmos Renderer (internal or external RMU).",
+          "Loudness & Metering Suite: Calibrated LUFS/LKFS and True Peak metering compliant with ITU-R BS.1770-4 and EBU R128 standards."
+        ]
+      }
+    ],
+    "candidateProfileIntro": "We run a lean, high-accountability post-production division. We value sonic clarity, technical compliance, and strict operational security.",
+    "candidateProfilePoints": [
+      {
+        "headline": "First-Pass QC Precision",
+        "detail": "You execute director and producer mix notes cleanly within a strict cap of three (3) consolidated revision passes (v01 through v03) per reel, maintaining accurate timecode logs for every adjustment."
+      },
+      {
+        "headline": "Strict Vault Security & Anti-Leak Discipline",
+        "detail": "You will handle unreleased film picture cuts and master audio stems. Storing project files, ADM masters, or video cuts on unapproved personal drives or personal cloud storage is strictly prohibited. All files must be ingested and delivered exclusively through our isolated studio masters repository."
+      },
+      {
+        "headline": "Release Gate Compliance",
+        "detail": "You adhere strictly to our internal release protocols, ensuring zero un-watermarked masters are transmitted to external film studios until our corporate treasury issues a formal release clearance."
+      },
+      {
+        "headline": "Legal Onboarding",
+        "detail": "Before you receive access to printed stems, video cuts, or spatial routing templates, you will be required to sign our B2B Independent Contractor Agreement and Studio Non-Disclosure & Anti-Leak Covenant. All work is strictly Work-Made-For-Hire: Hubani Limited retains 100% of all copyrights, master recording rights, and publishing rights, with zero residual or neighboring rights claims retained by the contractor."
+      }
+    ],
+    "compensationAndTraining": "Compensation is locked to a transparent, fixed per-minute-of-music rate based on final approved cue durations, protecting you from unpaid scope creep. Payments are wired via corporate transfer in two stages: 50% upon Lead Composer sign-off on the v01 spatial/stereo reference mix, and 50% upon verified delivery of QC-passed ADM BWF, 5.1, and stereo masters into the studio vault. Mix engineers who consistently deliver theatrical-grade Atmos mixes that pass studio QC without rejections receive priority retainer placement across all upcoming Hubani film slates and BOTYA broadcast productions. Hubani Limited is an equal opportunity employer. All applications are evaluated blindly based on sonic clarity, dynamic control, and technical QC precision.",
+    "applicationEmail": "careers@hubani.org",
+    "applicationInstructions": "Submit your application package to careers@hubani.org (Subject Line: Atmos Mix Engineer Application - [Your Name]) including: (1) your mix reel (3 tracks max) with stereo bounces, and binaural Atmos renders if available, showcasing a hybrid/trailer score, an intimate orchestral cue, and a mix-under-dialogue test; (2) your studio and room calibration specs, covering your 7.1.4 speaker array, room treatment, Dolby Atmos Renderer version, and calibration method; and (3) notable credits for any theatrical films, streaming series, video games, or major trailer campaigns you have mixed or mastered.",
+    "status": "active"
   }
 ]
